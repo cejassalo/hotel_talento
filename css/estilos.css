@@ -227,7 +227,7 @@ h2{
 }
 /*Nosotros index*/
 .nosotros{
-    text-align: center;
+    text-align: left;
     padding:20px;
       height: 100vh;
       width: 100%;
@@ -237,19 +237,22 @@ h2{
         align-items: center;
         justify-content: space-between;
         height: 90%;
-        width: 70%;
+        width: 100%;
         .uno{
             background-image: url("../assets/img/costado.png");
-            background-size: cover;
+            background-size:cover;
             background-repeat: no-repeat;
             background-position:center;
             width:100%;
             height: 90%;
         }
         .dos{
-            width: 50%;
-            height: 100%;
+            padding-top:90px;
+            padding-right:20px;
+            padding-left: 20px;
+            width: 45%;;
         }
+        
     }
 }
 
