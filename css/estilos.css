@@ -230,7 +230,7 @@ h2{
     text-align: center;
     padding:20px;
       height: 100vh;
-      width: 100%;
+      width: 50%;
     .contenedorNosotros{
         display: flex;
         align-items: center;
@@ -243,7 +243,7 @@ h2{
             background-repeat: no-repeat;
             background-position:center;
             width:50%;
-            height: 100%;
+            height: 90%;
         }
         .dos{
             width: 50%;
@@ -251,6 +251,8 @@ h2{
         }
     }
 }
+
+
 @media screen and (max-width:768px){
     /*footer*/
    .nosotros{
