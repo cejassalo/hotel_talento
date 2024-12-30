@@ -280,8 +280,7 @@ h2{
 .marcasQueSeVenden{
     text-align: center;
     .galeriaMarcas{
-        margin-top:15px;
-        background-color: pink;
+        margin-top:15px;;
         padding:50px;
        /* margin:0 auto;
         width: 90%;*/
@@ -432,7 +431,7 @@ h2{
     height: 50vh;
     padding:20px;
 
-    background-image: radial-gradient(circle, #e592a2, #e59caa, #e5a6b2, #e5afba, #e5b9c2, #e5b9c2, #e5b9c2, #e5b9c2, #e5afba, #e5a6b2, #e59caa, #e592a2);
+    background-image: radial-gradient(circle, #c3fcf2 0%, #7bbcdc 75%);
     font-size: 10px;
     .logo{
         width: 100px;
