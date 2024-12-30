@@ -164,6 +164,7 @@ h2{
     .productosDestacados{
         .galeriaDestacados{
              justify-content: center;
+             display:flex;
              row-gap: 20px;
             .tarjetaDestacados{
                 text-align: center;
