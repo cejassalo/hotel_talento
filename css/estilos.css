@@ -228,6 +228,45 @@ h2{
     }
   }
 
+  .alimento {
+    display: flex; /* Activa Flexbox */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si no caben en una fila */
+    justify-content: space-between; /* Espacio uniforme entre tarjetas */
+    gap: 20px; /* Espaciado entre las tarjetas */
+    padding: 20px; /* Espaciado interno del contenedor */
+  }
+  
+  .alimento .tarjetaDestacados {
+    flex: 1 1 calc(33.333% - 20px); /* Tres columnas en pantallas grandes */
+    max-width: calc(33.333% - 20px); /* Limita el tamaño máximo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center; /* Centra el contenido */
+    padding: 15px; /* Espaciado interno de cada tarjeta */
+    background-color: #fff; /* Fondo blanco */
+  }
+  
+  .alimento .tarjetaDestacados img {
+    width: 200px; /* Ancho fijo */
+    height: 250px; /* Alto fijo */
+    object-fit: cover; /* Asegura que la imagen se ajuste al tamaño sin deformarse */
+    border-radius: 5px; /* Bordes redondeados para la imagen */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .alimento .tarjetaDestacados {
+      flex: 1 1 calc(50% - 20px); /* Dos columnas en tablets o pantallas medianas */
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .alimento .tarjetaDestacados {
+      flex: 1 1 100%; /* Una columna en pantallas pequeñas */
+      max-width: 100%;
+    }
+  }
+
 /*marcas que se venden del index*/
 .boton{
     display: inline-block;
